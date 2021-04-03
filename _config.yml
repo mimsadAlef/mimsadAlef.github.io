@@ -1,6 +1,7 @@
 theme: jekyll-theme-cayman
 title : "محمدصادق عبداللهی"
 description : "برنامه نویس و طراح گرافیک"
+lang : "fa"
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
   dribbble: 
