@@ -4,7 +4,7 @@
     src: url('appleEmoji.eot?#iefix') format('embedded-opentype'),
          url('appleEmoji.woff2') format('woff2'),
          url('appleEmoji.woff') format('woff'),
-         url('appleEmoji.ttf') format('truetype');
+         url('https://github.com/samuelngs/apple-emoji-linux/releases/download/latest/AppleColorEmoji.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
