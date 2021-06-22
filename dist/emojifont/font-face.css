@@ -1,13 +1,13 @@
-@font-face {
+/*@font-face {
     font-family: 'Apple Color Emoji';
-    src: url('appleEmoji.eot');
-    src: url('appleEmoji.eot?#iefix') format('embedded-opentype'),
-         url('appleEmoji.woff2') format('woff2'),
-         url('appleEmoji.woff') format('woff'),
-         url('https://github.com/samuelngs/apple-emoji-linux/releases/download/latest/AppleColorEmoji.ttf') format('truetype');
+    src: url('AppleColorEmoji.eot');
+    src: url('AppleColorEmoji.eot?#iefix') format('embedded-opentype'),
+         url('AppleColorEmoji.woff2') format('woff2'),
+         url('AppleColorEmoji.woff') format('woff'),
+         url('AppleColorEmoji.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 @font-face {
     font-family: twemoji;
     src: url('twemoji.eot');
