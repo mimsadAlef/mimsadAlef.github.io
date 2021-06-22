@@ -1,0 +1,20 @@
+@font-face {
+    font-family: apple-emoji;
+    src: url('appleEmoji.eot');
+    src: url('appleEmoji.eot?#iefix') format('embedded-opentype'),
+         url('appleEmoji.woff2') format('woff2'),
+         url('appleEmoji.woff') format('woff'),
+         url('appleEmoji.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: twemoji;
+    src: url('twemoji.eot');
+    src: url('twemoji.eot?#iefix') format('embedded-opentype'),
+         url('twemoji.woff2') format('woff2'),
+         url('twemoji.woff') format('woff'),
+         url('twemoji.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
