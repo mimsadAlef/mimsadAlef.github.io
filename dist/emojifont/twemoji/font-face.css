@@ -1,13 +1,3 @@
-/*@font-face {
-    font-family: 'Apple Color Emoji';
-    src: url('AppleColorEmoji.eot');
-    src: url('AppleColorEmoji.eot?#iefix') format('embedded-opentype'),
-         url('AppleColorEmoji.woff2') format('woff2'),
-         url('AppleColorEmoji.woff') format('woff'),
-         url('AppleColorEmoji.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}*/
 @font-face {
     font-family: twemoji;
     src: url('twemoji.eot');
