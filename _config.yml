@@ -1,10 +1,10 @@
-# theme: jekyll-theme-cayman
+theme: jekyll-theme-cayman
 title : "محمدصادق عبداللهی"
 description : "برنامه نویس و طراح گرافیک"
 lang : "fa"
 dir : "rtl"
 favicon: "https://avatars.githubusercontent.com/u/70805659?v=4"
-remote_theme: "wowthemesnet/jekyll-theme-memoirs"
+# remote_theme: "wowthemesnet/jekyll-theme-memoirs"
 copyright: "تمامی حقوق مطالب برای محمد صادق عبداللهی محفوظ است"
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
