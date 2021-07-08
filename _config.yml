@@ -3,6 +3,7 @@ title : "محمدصادق عبداللهی"
 description : "برنامه نویس و طراح گرافیک"
 lang : "fa"
 dir : "rtl"
+remote_theme: the-mvm/the-mvm.github.io
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 footer-links:
   dribbble: 
