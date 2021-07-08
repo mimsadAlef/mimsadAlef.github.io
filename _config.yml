@@ -1,6 +1,8 @@
 # Site
 name: "mimsadAlef"
 title: "mimsadAlef"
+dir: "rtl"
+lang: "fa"
 description: "محمدصادق عبداللهی"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
@@ -66,7 +68,7 @@ adsense-data-ad-client: "ca-pub-3412143450191416"
 adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enabled"
 
 # Post Author Box ("enabled" or "disabled")
 authorbox: "enabled"
