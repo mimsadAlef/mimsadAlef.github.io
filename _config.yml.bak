@@ -1,10 +1,18 @@
+# theme: jekyll-theme-cayman
+# title : "محمدصادق عبداللهی"
+# description : "برنامه نویس و طراح گرافیک"
+# lang : "fa"
+# dir : "rtl"
+# favicon: "https://avatars.githubusercontent.com/u/70805659?v=4"
+remote_theme: https://github.com/wowthemesnet/jekyll-theme-memoirs
+
 # Site
 name: "Memoirs"
 title: "Memoirs"
 description: "I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /jekyll-theme-memoirs
+baseurl: /
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -78,3 +86,7 @@ sass:
   style: compressed
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
+plugins:
+  - jekyll-remote-theme
+
