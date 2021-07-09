@@ -1,18 +1,28 @@
 ---
 layout: default
 ---
-
-<div class="page-single">
-    <div class="entry-header">       
-        <h1 class="posttitle">{{ page.title }}</h1>        
-    </div>
+<!-- Post Featured Image -->
+{% if page.image %}
+<div class="text-center mx-auto mb-5">
+  <img class="featured-image text-center mx-auto rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
 </div>
+{% endif %}
+<!-- End Featured Image -->
 
-<!-- Featured Image -->
-{% include featured-image.html %}
+<div class="col-lg-8 mx-auto">
 
-<!-- Content -->
-{% include article.html %}
+  <div class="mainheading">
+    <h1 class="posttitle">{{ page.title }}</h1>
+  </div>
 
-<!-- Comments if not disabled with comments: false -->
-{% include comments.html %}
+  <div class="article-post serif-font">
+    {{content}}
+  </div>
+
+  {% if page.comments == true %}
+  <div id="comments">             
+      {% include disqus.html %} 
+  </div>
+  {% endif %}
+
+</div>
