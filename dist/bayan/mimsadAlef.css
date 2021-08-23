@@ -1,1 +1,273 @@
+@charset "UTF-8";
+/* makhfi kardan list follower ha */
 
+#followersLs {
+    visibility: hidden
+}
+
+.follower {
+    position: absolute
+}
+
+#followersLs::after {
+    visibility: visible;
+    content: "دوست عزیز اگه فکر کردی با دنبال کردن من می تونی تبلیغ وبلاگت رو بکنی کور خوندی :)";
+    text-shadow: 0.1em 0.1em rgb(0 0 0 / 30%);
+    font-weight: 900;
+}
+
+#followInBx {
+    background: linear-gradient(to right, #36c393, #68e6be);
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 200px!important;
+}
+
+
+/* taghir shekl esm weblog */
+
+.blog-title {
+    color: #24c8ff;
+    /*text-shadow: 0px 1px #00bfff, 0px 2px #009dd2, 0px 3px #00a4dc, 0px 4px #008cbb, 0px 5px #008ebd, 0px 6px #00678a*/
+}
+
+.blog-title:hover a {
+    color: #24c8ff
+}
+
+
+/* ezafe kardan aks profile be header */
+
+
+/* .header {
+	padding-bottom:20%;
+}
+.header img {
+	width:20%;
+	border-radius:50%
+} */
+
+
+/* taghir shekl edame matlab */
+
+/* .post-readmore {
+    text-align: right
+}
+
+.post-readmore a {
+    background: blueviolet;
+    /* changed */
+    border-radius: 3px;
+    padding: 7px;
+} */
+
+
+/* hal moshkel bozorgh bodan video */
+
+video {
+    max-width: 100%;
+    height: 70vh;
+    display: block;
+    margin: auto;
+}
+
+
+/* ziba kardan sot(audio) */
+
+audio {
+    width: 100%;
+}
+
+
+/* link blocked windows */
+
+div#blockedlink {
+    top: 15vh;
+    right: 15vw;
+    width: 70vw;
+    height: 70vh;
+    z-index: 99;
+    opacity: 0;
+    position: fixed;
+    transform: scale(0);
+    transition: all 0.4s ease-in-out;
+    border-radius: 50px;
+    pointer-events: none;
+    background-color: blueviolet;
+}
+
+div#blockedlink .close a {
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    position: absolute;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50%;
+    text-decoration: none;
+    background-color: white;
+    /* changed */
+    ;
+}
+
+div#blockedlink .content {
+    margin: 50px 20px;
+}
+
+div#blockedlink:target {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+}
+
+
+/* progress bar */
+
+.progress {
+    max-width: 100%;
+    margin: 0.4rem;
+    background: #ccc;
+    border-radius: 0.4rem;
+    box-shadow: 0px 10px 13px -6px rgba(44, 62, 80, 1);
+}
+
+.progress>.progressbar {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    text-shadow: 1px 3px 4px black;
+    /* changed */
+    ;
+    animation: mimsadAlefprogressbar 3s linear infinite;
+    background: repeating-linear-gradient(-45deg, #ffbf00, #ffbf00 20px, #2c3e50 10px, #2c3e50 40px);
+    background-size: 56px 56px;
+}
+
+@keyframes mimsadAlefprogressbar {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -56px -56px;
+    }
+}
+
+
+/* sticky navbar */
+
+.main-menu {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+
+/* like post */
+
+.rate-box .rate-button::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 1px 1px -3px 0;
+    background: url(https://bayanbox.ir/download/5083666687746516769/heart-regular.svg) center/contain no-repeat;
+}
+
+.rate-box.rated .rate-button::before {
+    content: "";
+    background: url(https://bayanbox.ir/download/3869137100406119822/heart-solid.svg) center/contain no-repeat;
+}
+
+
+/* changed style */
+
+.post-content {
+    color: black;
+    /* changed */
+}
+
+.header {
+    background: linear-gradient(-45deg, #ffbf00 50%, #008080 50%);
+    height: 60vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header h1 a {
+    font-weight: 900;
+    color: black;
+    /* changed */
+    ;
+    background: white;
+    mix-blend-mode: screen;
+    font-size: xx-large;
+    padding: 7px;
+    border-radius: 7px;
+    letter-spacing: -1px;
+}
+
+.header h1 a:hover {
+    color: black;
+    /* changed */
+}
+
+.header .blog-short-description {
+    color: black;
+    /* changed */
+    ;
+    background: white;
+    /* changed */
+    ;
+    mix-blend-mode: color-burn;
+}
+
+.header a.downtocontent {
+    position: absolute;
+    bottom: 40px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 5px solid white;
+	transform: rotate(45deg);
+	border-top: none;
+	border-left: none;
+}
+
+.header p.downtocontentLable {
+    position: absolute;
+    bottom: 0;
+}
+
+
+/* moharam */
+
+.header .katibeh {
+    width: 100%;
+    height: 70px;
+    background: url(https://bayanbox.ir/view/4609484676446085332/katibeh-top.jpg) center/contain repeat-x;
+    position:absolute;
+    top:-70px;
+}
+body {
+    background:#000 url(https://bayanbox.ir/view/7736820977023977893/Esfehan.jpg) center/cover fixed;
+}
+body > div:not(.header) {
+    filter: invert(1) hue-rotate(210deg);
+}
+video, div img,p, h1, h2, h3, h4, h5, h6,.progress {
+	color:white;
+	filter: invert(1) hue-rotate(-210deg);
+}
+
+/* end loading */
+
+#loading {
+    display: none
+}
