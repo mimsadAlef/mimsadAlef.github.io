@@ -17,7 +17,7 @@ div.mimsadAlef.modalbox {
     background-color: blueviolet;
 }
 
-div.modalbox .close a {
+div.mimsadAlef.modalbox .close a {
     top: 0;
     right: 0;
     width: 30px;
@@ -34,11 +34,11 @@ div.modalbox .close a {
     ;
 }
 
-div.modalbox .content {
+div.mimsadAlef.modalbox .content {
     margin: 50px 20px;
 }
 
-div.modalbox:target {
+div.mimsadAlef.modalbox:target {
     opacity: 1;
     transform: scale(1);
     pointer-events: auto;
@@ -47,7 +47,7 @@ div.modalbox:target {
 
 /* progress bar */
 
-.mimsadAlef .progress {
+.mimsadAlef.progress {
     max-width: 100%;
     margin: 0.4rem;
     background: #ccc;
@@ -55,7 +55,7 @@ div.modalbox:target {
     box-shadow: 0px 10px 13px -6px rgba(44, 62, 80, 1);
 }
 
-.mimsadAlef .progress>.progressbar {
+.mimsadAlef.progress>.progressbar {
     color: white;
     text-align: center;
     font-weight: 900;
