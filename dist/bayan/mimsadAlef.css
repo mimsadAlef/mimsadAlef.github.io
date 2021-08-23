@@ -155,29 +155,3 @@ div.modalbox:target {
     bottom: 0;
 }
 
-
-/* moharam */
-
-.header .katibeh {
-    width: 100%;
-    height: 70px;
-    background: url(https://bayanbox.ir/view/4609484676446085332/katibeh-top.jpg) center/contain repeat-x;
-    position:absolute;
-    top:0;
-}
-body {
-    background:#000 url(https://bayanbox.ir/view/7736820977023977893/Esfehan.jpg) center/cover fixed;
-}
-body > div:not(.header) {
-    filter: invert(1) hue-rotate(210deg);
-}
-video, div img,p, h1, h2, h3, h4, h5, h6,.progress {
-	color:white;
-	filter: invert(1) hue-rotate(-210deg);
-}
-
-/* end loading */
-
-#loading {
-    display: none
-}
